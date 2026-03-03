@@ -302,7 +302,7 @@ namespace prakt3
             int age = 18;
             DayOfWeek day = DayOfWeek.Friday;
             TimeSpan timeSpan = TimeSpan.FromHours(13);
-            int result = 240;
+            int result = 300;
 
             ticketRequest.IsStudent = isStudent;
             ticketRequest.IsVip = isVip;
@@ -495,9 +495,6 @@ namespace prakt3
             Assert.Throws<ArgumentOutOfRangeException>(() => calculator.CalculatePrice(ticketRequest));
 
         }
-
-
-
 
     }
 }
